@@ -1,0 +1,17 @@
+.container{
+    background-color: aquamarine;
+    display:flex;
+    align-items: flex-start;
+}
+
+.container > div {
+    margin:20px;
+    background-color: antiquewhite;
+    flex: 1;
+}
+.container .item2{
+    background-color:greenyellow;
+}
+.container .item3{
+    background-color: aqua;
+}
